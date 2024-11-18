@@ -1,7 +1,5 @@
 FROM python:3.9
 
-RUN useradd -u 1001 mousa
-
 WORKDIR /usr/src/app
 
 COPY ./requirements.txt .
