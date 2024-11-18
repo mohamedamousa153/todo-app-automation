@@ -1,4 +1,4 @@
-FROM python:3.9
+FROM rhel9/python-312
 
 WORKDIR /usr/src/app
 
