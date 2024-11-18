@@ -1,4 +1,4 @@
-FROM rhel9/python-312
+FROM bitnami/python
 
 WORKDIR /usr/src/app
 
