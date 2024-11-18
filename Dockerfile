@@ -2,6 +2,8 @@ FROM python:3.9
 
 WORKDIR /usr/src/app
 
+RUN chown -R 1000:1000 /etc/*
+
 COPY ./requirements.txt .
 
 RUN pip install --upgrade pip
