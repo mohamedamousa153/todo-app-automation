@@ -1,4 +1,4 @@
-FROM bitnami/python
+FROM docker.io/bitnami/python
 
 WORKDIR /usr/src/app
 
