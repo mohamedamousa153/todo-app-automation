@@ -11,7 +11,7 @@ COPY . .
 
 EXPOSE 5000
 
-USER 1000  
+ 
 
 CMD ["python", "./app.py"]
 
